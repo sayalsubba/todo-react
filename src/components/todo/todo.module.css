@@ -9,14 +9,12 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    
 }
 .mainPrt{
     height: 400px;
     width: 350px;
     border-radius: 10px;
     background: linear-gradient(120deg, rgb(112, 228, 149),rgb(48, 99, 186));
-    border: solid red;
 }
 .mainPrt input{
     padding: 8px;
@@ -31,5 +29,16 @@
     border-radius: 10px;
     border-style: none;
     width: 60px;
+    cursor: pointer;
+}
+ul li{
+  
+    list-style-type: none; /* 1, 2, 3 */
+   width: max-content;
+margin-left: 20px;
+margin-top: 20px;
+}
+ul li span{
+    margin-left: 20px;
     cursor: pointer;
 }
